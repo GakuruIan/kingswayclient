@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Gruppo&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1,h2,h3{
+    font-family: 'Gruppo', cursive;
+}
+body{
+    font-family: 'Arsenal', sans-serif;
+}
+
+p{
+    font-family: 'Arsenal', sans-serif;
+}
