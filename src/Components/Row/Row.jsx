@@ -35,7 +35,7 @@ const Row = () => {
                     <h6 className="text-4xl">Latest</h6>
                     <div className="h-1 w-1/2 bg-[#3F3733]"></div>
                 </div>
-                <Link className="flex items-center gap-2 text-base hover:text-white px-4 py-2 border border-[#3F3733] hover:bg-[#3F3733] ">
+                <Link to='/listings' className="flex items-center gap-2 text-base hover:text-white px-4 py-2 border border-[#3F3733] hover:bg-[#3F3733] ">
                     View more
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
